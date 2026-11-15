@@ -1,0 +1,45 @@
+{
+  "best_model": "RandomForest",
+  "results": [
+    {
+      "model": "RandomForest",
+      "cv_rmse": 284.58659384527397,
+      "train_rmse": 198.84957994910525,
+      "test_rmse": 278.161634095548,
+      "test_mae": 104.83807304107964,
+      "test_r2": 0.9321888353429667,
+      "best_params": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 3,
+        "model__n_estimators": 200
+      }
+    },
+    {
+      "model": "GradientBoosting",
+      "cv_rmse": 294.04295996905347,
+      "train_rmse": 226.7668186239593,
+      "test_rmse": 290.3225582456931,
+      "test_mae": 127.61801042092334,
+      "test_r2": 0.9261299641745101,
+      "best_params": {
+        "model__learning_rate": 0.1,
+        "model__max_depth": 4,
+        "model__n_estimators": 200
+      }
+    },
+    {
+      "model": "XGBoost",
+      "cv_rmse": 289.3870443716589,
+      "train_rmse": 235.81756668650624,
+      "test_rmse": 284.32750966535804,
+      "test_mae": 116.98000885688708,
+      "test_r2": 0.9291492408675256,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_depth": 6,
+        "model__n_estimators": 100,
+        "model__subsample": 0.8
+      }
+    }
+  ]
+}

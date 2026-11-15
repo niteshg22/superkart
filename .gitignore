@@ -1,0 +1,9 @@
+mlflow.db
+mlruns/
+artifacts/
+__pycache__/
+*.ipynb
+*.html
+build_notebook.py
+texts_sk.py
+.ipynb_checkpoints/

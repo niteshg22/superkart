@@ -1,0 +1,22 @@
+{
+  "file": "SuperKart.csv",
+  "rows": 8763,
+  "columns": 12,
+  "column_names": [
+    "Product_Id",
+    "Product_Weight",
+    "Product_Sugar_Content",
+    "Product_Allocated_Area",
+    "Product_Type",
+    "Product_MRP",
+    "Store_Id",
+    "Store_Establishment_Year",
+    "Store_Size",
+    "Store_Location_City_Type",
+    "Store_Type",
+    "Product_Store_Sales_Total"
+  ],
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "sha256": "b12ec41668e69d71d64ca96f2be78a011087f2a9cac6aba6e5cc920544b21ab2"
+}
