@@ -5,8 +5,8 @@
       "model": "RandomForest",
       "cv_rmse": 284.58659384527397,
       "train_rmse": 198.84957994910525,
-      "test_rmse": 278.161634095548,
-      "test_mae": 104.83807304107964,
+      "test_rmse": 278.16163409554804,
+      "test_mae": 104.83807304107962,
       "test_r2": 0.9321888353429667,
       "best_params": {
         "model__max_depth": null,
@@ -29,11 +29,11 @@
     },
     {
       "model": "XGBoost",
-      "cv_rmse": 289.3870443716589,
-      "train_rmse": 235.81756668650624,
-      "test_rmse": 284.32750966535804,
-      "test_mae": 116.98000885688708,
-      "test_r2": 0.9291492408675256,
+      "cv_rmse": 289.32011059396143,
+      "train_rmse": 235.69604176728825,
+      "test_rmse": 286.02279971400645,
+      "test_mae": 117.46735099622745,
+      "test_r2": 0.9283018331017447,
       "best_params": {
         "model__learning_rate": 0.05,
         "model__max_depth": 6,
